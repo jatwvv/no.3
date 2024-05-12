@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+}
+@font-face {
+    font-family: Figtree;
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+.container {
+    font-family: Figtree;
+    width: fit-content;
+    margin: auto;
+    margin-top: 120px;
+}
+.container .box {
+    background-color: hsl(0, 0%, 100%);
+    width: 380px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 black;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.container .box:hover{
+    box-shadow: 10px 10px 0 black;
+}
+.container .box .image {
+    text-align: center;
+}
+.container .box .image img {
+    margin: 20px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container .box .label {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    width: fit-content;
+    padding: 5px 10px;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-left: 24px;
+}
+.container .box .content {
+    margin-left: 24px;
+}
+.container .box .content h4 {
+    color: black;
+    font-weight: 400;
+    margin: 15px 0;
+}
+.container .box .content h3 {
+    color: black;
+    font-weight: 800;
+    margin-top: 20px;
+    transition: all 0.3s ;
+    -webkit-transition: all 0.3s ;
+    -moz-transition: all 0.3s ;
+    -ms-transition: all 0.3s ;
+    -o-transition: all 0.3s ;
+}
+.container .box:hover .content h3 {
+    color: hsl(47, 88%, 63%);
+}
+.container .box .content p {
+    color: hsl(0, 0%, 50%);
+    padding-top: 15px;
+}
+.container .box .acount {
+    display: flex;
+    text-align: center;
+    margin: 21px;
+    padding-bottom: 21px;
+}
+.container .box .acount img {
+    width: 36px;
+}
+.container .box .acount p {
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
